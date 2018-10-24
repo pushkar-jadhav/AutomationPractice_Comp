@@ -1,5 +1,6 @@
 package UIActions;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -10,11 +11,20 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import extentReports.ExtentManager;
 import testBase.TestBase;
 
 public class uiActionHomepage extends TestBase
 {
 	public static final Logger log = Logger.getLogger(uiActionHomepage.class.getName());	
+	
+	public static ExtentTest test;
+	public static ExtentReports extent;
+	
 	//WebDriver driver;
 	@FindBy(xpath=".//*[@id='menu-item-40']/a")
 	WebElement Shopbutton;
@@ -55,18 +65,23 @@ public class uiActionHomepage extends TestBase
 	@FindBy(xpath=".//*[@id='comment-53']/div/div[2]/p")
 	WebElement commentText;*/
 	
-	public uiActionHomepage(WebDriver driver) // constructor
+	public uiActionHomepage(WebDriver driver) throws IOException // constructor
 	{
+		super();
 		this.driver = driver;
 		PageFactory.initElements(driver, this);  //this - refers current class objects
+		extent = ExtentManager.getInstance();
+		test = ExtentManager.getInstance().createTest(getClass().getName());
 	}
 	
 	public void clickOnShopAndopenHome()
 	{		
 		Shopbutton.click();
 		log.info("3. Click on Shop Menu - Passed");
+		test.info("3. Click on Shop Menu - Passed");
 		HomebuttonOnshoppage.click();
 		log.info("4. Now click on Home menu button");
+		test.info("3. Click on Shop Menu - Passed");
 	}
 	
     public void getSliders(){

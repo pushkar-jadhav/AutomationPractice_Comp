@@ -11,6 +11,10 @@ import UIActions.uiActionHomepage;
 
 public class TC_04 extends TestBase
 {
+	public TC_04() throws IOException {
+		super();
+	}
+
 	@BeforeClass
 	public void setUp() throws IOException 
 	{	

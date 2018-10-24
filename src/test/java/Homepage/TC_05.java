@@ -10,6 +10,10 @@ import testBase.TestBase;
 
 public class TC_05 extends TestBase
 {
+	public TC_05() throws IOException {
+		super();
+	}
+
 	@BeforeClass
 	public void setUp() throws IOException 
 	{	

@@ -13,6 +13,10 @@ public class TC_02 extends TestBase
 {
 	
 	
+	public TC_02() throws IOException {
+		super();
+	}
+
 	@BeforeClass
 	public void setUp() throws IOException 
 	{	

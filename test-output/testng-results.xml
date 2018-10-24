@@ -1,31 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TC01_Success_21_09_2018_02_45_40.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TC01_Success_21_09_2018_02_45_40.png'height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_12.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_12.png'height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_25.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_25.png'height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_38.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_38.png'height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_50.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_50.png'height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_03.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_03.png'height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_13.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_13.png'height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58846" started-at="2018-09-21T09:14:42Z" finished-at="2018-09-21T09:15:41Z">
+  <suite name="Default suite" duration-ms="120751" started-at="2018-10-24T10:10:14Z" finished-at="2018-10-24T10:12:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58846" started-at="2018-09-21T09:14:42Z" finished-at="2018-09-21T09:15:41Z">
-      <class name="Homepage.TC_01">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Homepage.TC_01@2f686d1f]" name="setUp" is-config="true" duration-ms="53300" started-at="2018-09-21T09:14:42Z" finished-at="2018-09-21T09:15:36Z">
+    <test name="Default test" duration-ms="120751" started-at="2018-10-24T10:10:14Z" finished-at="2018-10-24T10:12:15Z">
+      <class name="MyAccount_Login.TCAccout_01">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyAccount_Login.TCAccout_01@6adede5]" name="setUp" is-config="true" duration-ms="38550" started-at="2018-10-24T10:10:14Z" finished-at="2018-10-24T10:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAaddToCart()[pri:0, instance:Homepage.TC_01@2f686d1f]" name="verifyAaddToCart" duration-ms="4668" started-at="2018-09-21T09:15:36Z" finished-at="2018-09-21T09:15:40Z">
+        <test-method status="PASS" signature="excelCheckCredentials()[pri:0, instance:MyAccount_Login.TCAccout_01@6adede5]" name="excelCheckCredentials" duration-ms="81307" started-at="2018-10-24T10:10:52Z" finished-at="2018-10-24T10:12:14Z">
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TC01_Success_21_09_2018_02_45_40.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TC01_Success_21_09_2018_02_45_40.png'height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_12.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_12.png'height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_25.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_25.png'height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_38.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_38.png'height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_50.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_41_50.png'height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_03.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_03.png'height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_13.png'> <img src='C:\Users\ajinkya.bhobad\eclipse-workspace\AutomationPractise\src\main\java\ScreenShot\_TCAccout_01_Success_24_10_2018_03_42_13.png'height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyAaddToCart -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:Homepage.TC_01@2f686d1f]" name="endTest" is-config="true" duration-ms="845" started-at="2018-09-21T09:15:40Z" finished-at="2018-09-21T09:15:41Z">
+        </test-method> <!-- excelCheckCredentials -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:MyAccount_Login.TCAccout_01@6adede5]" name="endTest" is-config="true" duration-ms="875" started-at="2018-10-24T10:12:14Z" finished-at="2018-10-24T10:12:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- Homepage.TC_01 -->
+      </class> <!-- MyAccount_Login.TCAccout_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

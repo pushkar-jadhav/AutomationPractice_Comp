@@ -10,6 +10,10 @@ import testBase.TestBase;
 
 public class TC_07 extends TestBase
 {
+	public TC_07() throws IOException {
+		super();
+	}
+
 	@BeforeClass
 	public void setUp() throws IOException 
 	{	
@@ -24,10 +28,11 @@ public class TC_07 extends TestBase
 	{
 		try {
 			uiActionHomepage Homepage = new uiActionHomepage(driver);
-			
+			Homepage.clickOnShopAndopenHome();
+			Homepage.getArrivals();
+			Homepage.ArrivalImageCheck();
 			getScreenShot("TC07_Success");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			getScreenShot("TC07_Failure");
 		}
